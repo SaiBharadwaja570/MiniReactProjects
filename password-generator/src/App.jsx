@@ -81,7 +81,7 @@ const App = () => {
                 checked={charAllowed}
                 onChange={() => setCharAllowed(prev => !prev)}
               />
-              <label htmlFor="charsCheck">Characters</label>
+              <label htmlFor="charsCheck">Special Characters</label>
             </div>
           </div>
         </div>

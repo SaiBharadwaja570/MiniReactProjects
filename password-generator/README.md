@@ -1,12 +1,22 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React app to generate strong, customizable passwords with options for length, numbers, special characters, and one-click copy to clipboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## Expanding the ESLint configuration
+- Choose Desired length
+- Toggle inclusion of:
+    - Numbers
+    - Special Characters
+- One-click copy functionality
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--- 
+
+# Concepts Introduced
+
+1. useState(): A react hook used to manage state in functional components.
+2. useEffect(): A react hook used to perform side effects after rendering.
+3. useCallback(): A react hook used to memoize functions to avoid re-creation.
+4. useRef(): A react hook used to store mutable values or reference DOM.
