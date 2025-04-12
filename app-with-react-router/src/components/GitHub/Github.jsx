@@ -3,6 +3,9 @@ import { useLoaderData } from 'react-router-dom';
 
 const Github = () => {
     const data = useLoaderData();
+
+    // Firstway of using API
+
     // const [data, setData] = useState([]);
     // useEffect(() => {
     //     fetch('https://api.github.com/users/SaiBharadwaja570')
@@ -22,7 +25,7 @@ const Github = () => {
 
 export default Github
 
-
+// The second way of using API call by useLoaderData()
 export const githubInfoLoader = async () => {
     const res = await fetch('https://api.github.com/users/SaiBharadwaja570')
     return res.json()
